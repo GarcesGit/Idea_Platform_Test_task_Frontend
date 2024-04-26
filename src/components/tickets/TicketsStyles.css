@@ -1,0 +1,87 @@
+.container_tickets * {
+    background-color: #fff;
+}
+.container_tickets {
+    display: flex;
+    margin-bottom: 20px;
+    border: 3px solid #f0f4f7;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.container_buy {
+    display: block;
+    padding: 20px;
+    border-right: 1px solid #f0f4f7;
+}
+.carrier {
+    width: 150px;
+    height: 45px;
+    margin-bottom: 20px;
+}
+.btn-warning {
+    padding: 4px;
+    min-width: 170px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff6d00;
+}
+.btn:hover {
+    background-color: #ff8124;
+    color: #fff;
+}
+.container_info {
+    padding: 25px;
+    min-width: 400px;
+}
+.container_transfers {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.container_line-plane {
+    display: flex;
+    align-items: center;
+}
+.line-plane {
+    width: 120px;
+    border: 1px solid #f0f4f7;
+}
+.plane_small {
+    width: 15px;
+}
+.info_time {
+    display: flex;
+    justify-content: space-between;
+}
+.time_departure {
+    font-size: 36px;
+}
+.time_arrival {
+    font-size: 38px;
+    text-align: end;
+}
+.stops {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    color: #aaaaaa;
+}
+.info_city_date {
+    display: flex;
+    justify-content: space-between;
+}
+.city_date_departure {
+    text-align: start;
+}
+.city_date_arrival {
+    text-align: end;
+}
+.city {
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.date {
+    color: #aaaaaa;
+    font-size: 14px;
+}

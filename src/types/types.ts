@@ -1,0 +1,23 @@
+export type Ticket = {
+    arrival_date: string;
+    arrival_time: string;
+    carrier: CarrierType | string;
+    departure_date: string;
+    departure_time: string;
+    destination: string;
+    destination_name: string;
+    origin: string;
+    origin_name: string;
+    price: number;
+    stops: number;
+};
+
+export type Tickets = Ticket[];
+
+export type TicketsData = {
+    tickets: Tickets;
+};
+
+export type CarrierType = "BA" | "TK" | "SU" | "S7";
+
+export type CurrencyType = "RUB" | "USD" | "EUR";
